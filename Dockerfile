@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk-centos:8
+FROM azul/zulu-openjdk-centos:19
 MAINTAINER Bard Lind <bard.lind@gmail.com>
 RUN yum -y install yum-cron
 RUN yum -y update
